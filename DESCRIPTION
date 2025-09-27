@@ -1,0 +1,19 @@
+Package: openholidaysR
+Title: Provides access to the OpenHolidays API
+Version: 0.0.0.9000
+Authors@R: 
+    person("Johannes", "Feldhege", , "mail@johannesfeldhege.de", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-4665-5235"))
+Description: Provides dates for public and school holidays for a number of
+    countries and their subdivisions through the OpenHolidays API at
+    https://openholidaysapi.org/.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    httr2
