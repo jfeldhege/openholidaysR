@@ -8,8 +8,16 @@
 \description{
 Provides dates for public and school holidays for a number of countries and their subdivisions through the OpenHolidays API at https://openholidaysapi.org/.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/jfeldhege/openholidaysR}
+  \item Report bugs at \url{https://github.com/jfeldhege/openholidaysR/issues}
+}
+
+}
 \author{
-\strong{Maintainer}: Johannes Feldhege \email{mail@johannesfeldhege.de} (\href{https://orcid.org/0000-0002-4665-5235}{ORCID})
+\strong{Maintainer}: Johannes Feldhege \email{mail@johannesfeldhege.de} (\href{https://orcid.org/0000-0002-4665-5235}{ORCID}) [copyright holder]
 
 }
 \keyword{internal}
