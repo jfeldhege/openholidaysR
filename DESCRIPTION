@@ -2,7 +2,7 @@ Package: openholidaysR
 Title: Provides access to the OpenHolidays API
 Version: 0.0.0.9000
 Authors@R: 
-    person("Johannes", "Feldhege", , "mail@johannesfeldhege.de", role = c("aut", "cre"),
+    person("Johannes", "Feldhege", , "mail@johannesfeldhege.de", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0002-4665-5235"))
 Description: Provides dates for public and school holidays for a number of
     countries and their subdivisions through the OpenHolidays API at
