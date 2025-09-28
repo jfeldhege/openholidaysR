@@ -15,3 +15,8 @@ A data frame of supported countries.
 \description{
 Get list of countries supported by OpenHolidays
 }
+\examples{
+\dontrun{
+  oh_countries(language = "DE")
+}
+}

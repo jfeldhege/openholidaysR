@@ -25,10 +25,9 @@ oh_languages <- function() {
 #' @param language Language code (default: "EN").
 #'
 #' @return A data frame of subdivisions.
-#' @examples
-#' \dontrun{
+#' @examplesIf interactive()
 #'   oh_subdivisions(country = "DE")
-#' }
+#'
 #' @export
 oh_subdivisions <- function(country,
                             language = "EN") {
@@ -47,6 +46,10 @@ oh_subdivisions <- function(country,
 #'
 #' @param language Language code (default: "EN").
 #' @return A data frame of supported countries.
+#' @examples
+#' \dontrun{
+#'   oh_countries(language = "DE")
+#' }
 #' @export
 oh_countries <- function(language = "EN") {
   req <- oh_request("Countries",
