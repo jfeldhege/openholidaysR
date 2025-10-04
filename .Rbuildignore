@@ -6,3 +6,4 @@ setup.R
 ^docs$
 ^pkgdown$
 ^\.github$
+^README\.Rmd$

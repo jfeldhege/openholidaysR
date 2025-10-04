@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# openholidaysR
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of openholidaysR is to provide dates for public and school holidays for a number of countries and their subdivisions through the OpenHolidays API at https://openholidaysapi.org/.
+
+## Installation
+
+You can install the development version of openholidaysR from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("jfeldhege/openholidaysR")
+```
+
+## Example
+
+This is a basic example which shows you how to get all public holidays for Germany for the first three months of 2025:
+
+```{r example}
+library(openholidaysR)
+
+oh_holidays(country = "DE",
+            language = "DE",
+            start_date = "2025-01-01",
+            end_date = "2025-03-31")
+```
+
+

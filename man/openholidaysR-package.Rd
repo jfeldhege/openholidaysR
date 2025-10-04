@@ -12,6 +12,7 @@ Provides dates for public and school holidays for a number of countries and thei
 Useful links:
 \itemize{
   \item \url{https://github.com/jfeldhege/openholidaysR}
+  \item \url{http://www.johannesfeldhege.de/openholidaysR/}
   \item Report bugs at \url{https://github.com/jfeldhege/openholidaysR/issues}
 }
 
