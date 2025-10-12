@@ -17,7 +17,7 @@
 #'             end_date = "2025-12-31")
 #'}
 #' @export
-oh_holidays <- function(country,
+oh_public_holidays <- function(country,
                         language = "EN",
                         start_date,
                         end_date) {
@@ -46,7 +46,7 @@ oh_holidays <- function(country,
 #' oh_holiday_by_date(date = "2025-12-25")
 #' }
 #' @export
-oh_holiday_by_date <- function(date,
+oh_public_holidays_by_date <- function(date,
                                language = "EN") {
   query <- list(
     date = date,
@@ -123,7 +123,7 @@ oh_school_holidays_by_date <- function(date,
     languageIsoCode = language
   )
 
-  req <- oh_request("PublicHolidaysByDate", query = query)
+  req <- oh_request("SchoolHolidaysByDate", query = query)
 
   oh_perform_request(req)
 }

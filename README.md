@@ -24,25 +24,22 @@ pak::pak("jfeldhege/openholidaysR")
 ## Example
 
 This is a basic example which shows you how to get all public holidays
-for Germany for the first three months of 2025:
+for Germany for January 2025:
 
 ``` r
 library(openholidaysR)
 
-oh_holidays(country = "DE",
-            language = "DE",
-            start_date = "2025-01-01",
-            end_date = "2025-03-31")
+oh_public_holidays(country = "DE",
+                   language = "DE",
+                   start_date = "2025-01-01",
+                   end_date = "2025-01-31")
 #>                                     id  startDate    endDate   type
 #> 1 27f0d8cd-76b2-47e7-89ac-a3a9f6a6b1ba 2025-01-01 2025-01-01 Public
 #> 2 1c80b87d-8221-4dc2-9a1a-3b0f57dce9f5 2025-01-06 2025-01-06 Public
-#> 3 4522bbfa-eaee-4efe-b13c-dac7f67bb986 2025-03-08 2025-03-08 Public
-#>                            name regionalScope temporalScope nationwide
-#> 1                   DE, Neujahr      Regional       FullDay       TRUE
-#> 2       DE, Heilige Drei Könige      Regional       FullDay      FALSE
-#> 3 DE, Internationaler Frauentag      Regional       FullDay      FALSE
+#>                      name regionalScope temporalScope nationwide
+#> 1             DE, Neujahr      Regional       FullDay       TRUE
+#> 2 DE, Heilige Drei Könige      Regional       FullDay      FALSE
 #>                      subdivisions
 #> 1                            NULL
 #> 2 DE-ST, DE-BW, DE-BY, ST, BW, BY
-#> 3            DE-BE, DE-MV, BE, MV
 ```
