@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/jfeldhege/openholidaysR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jfeldhege/openholidaysR/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of openholidaysR is to provide dates for public and school
