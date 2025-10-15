@@ -26,7 +26,8 @@ oh_request <- function(endpoint, query = list()) {
 #' with a warning.
 #'
 #' @param req A httr2 request object.
-#' @param empty_df A data frame with the expected structure to return on failure.
+#' @param empty_df A data frame with the expected structure to return on
+#' failure.
 #'
 #' @return A data frame with the parsed API response or an empty fallback.
 #' @keywords internal

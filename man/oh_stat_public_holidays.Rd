@@ -12,7 +12,8 @@ oh_stat_school_holidays(country, subdivision = NULL)
 \arguments{
 \item{country}{Country ISO code (e.g., "DE").}
 
-\item{subdivision}{Optional subdivision ID (if you want holidays for a specific state/province).}
+\item{subdivision}{Optional subdivision ID (if you want holidays for a
+specific state/province).}
 }
 \value{
 A data frame containing youngestStartDate and oldestStartDate.

@@ -9,7 +9,8 @@ oh_perform_request(req, empty_df = data.frame())
 \arguments{
 \item{req}{A httr2 request object.}
 
-\item{empty_df}{A data frame with the expected structure to return on failure.}
+\item{empty_df}{A data frame with the expected structure to return on
+failure.}
 }
 \value{
 A data frame with the parsed API response or an empty fallback.

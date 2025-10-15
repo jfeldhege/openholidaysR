@@ -18,9 +18,9 @@
 #'}
 #' @export
 oh_public_holidays <- function(country,
-                        language = "EN",
-                        start_date,
-                        end_date) {
+                               language = "EN",
+                               start_date,
+                               end_date) {
   query <- list(
     countryIsoCode = country,
     languageIsoCode = language,
@@ -47,7 +47,7 @@ oh_public_holidays <- function(country,
 #' }
 #' @export
 oh_public_holidays_by_date <- function(date,
-                               language = "EN") {
+                                       language = "EN") {
   query <- list(
     date = date,
     languageIsoCode = language
@@ -71,7 +71,8 @@ oh_public_holidays_by_date <- function(date,
 #' @param country Country ISO code (e.g., "DE").
 #' @param start_date Start date in YYYY-MM-DD format.
 #' @param end_date End date in YYYY-MM-DD format.
-#' @param subdivision Optional subdivision ID (if you want holidays for a specific state/province).
+#' @param subdivision Optional subdivision ID (if you want holidays for a
+#' specific subdivision such as state/province).
 #' @param language Language code (default: "EN").
 #'
 #' @return A data frame of school holidays.
@@ -117,7 +118,7 @@ oh_school_holidays <- function(country,
 #' }
 #' @export
 oh_school_holidays_by_date <- function(date,
-                               language = "EN") {
+                                       language = "EN") {
   query <- list(
     date = date,
     languageIsoCode = language

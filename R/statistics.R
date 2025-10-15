@@ -4,7 +4,8 @@
 #' Reads statistical data about stored holidays
 #'
 #' @param country Country ISO code (e.g., "DE").
-#' @param subdivision Optional subdivision ID (if you want holidays for a specific state/province).
+#' @param subdivision Optional subdivision ID (if you want holidays for a
+#' specific state/province).
 #'
 #' @returns A data frame containing youngestStartDate and oldestStartDate.
 #'

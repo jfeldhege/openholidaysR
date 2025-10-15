@@ -21,7 +21,8 @@ oh_school_holidays(
 
 \item{end_date}{End date in YYYY-MM-DD format.}
 
-\item{subdivision}{Optional subdivision ID (if you want holidays for a specific state/province).}
+\item{subdivision}{Optional subdivision ID (if you want holidays for a
+specific subdivision such as state/province).}
 }
 \value{
 A data frame of school holidays.
