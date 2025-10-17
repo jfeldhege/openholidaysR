@@ -6,6 +6,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/jfeldhege/openholidaysR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jfeldhege/openholidaysR/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/jfeldhege/openholidaysR/graph/badge.svg)](https://app.codecov.io/gh/jfeldhege/openholidaysR)
 <!-- badges: end -->
 
 The goal of openholidaysR is to provide dates for public and school
