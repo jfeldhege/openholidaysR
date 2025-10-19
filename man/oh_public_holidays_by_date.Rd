@@ -19,6 +19,6 @@ Get public holidays for a specific date for all countries
 }
 \examples{
 \dontrun{
-oh_holiday_by_date(date = "2025-12-25")
+oh_public_holiday_by_date(date = "2025-12-25")
 }
 }

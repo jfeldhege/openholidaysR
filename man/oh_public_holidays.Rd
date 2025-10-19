@@ -2,7 +2,7 @@
 % Please edit documentation in R/holidays.R
 \name{oh_public_holidays}
 \alias{oh_public_holidays}
-\title{Get public holidays for a given country and year}
+\title{Get public holidays for a given country and time period}
 \usage{
 oh_public_holidays(country, language = "EN", start_date, end_date)
 }
@@ -11,20 +11,20 @@ oh_public_holidays(country, language = "EN", start_date, end_date)
 
 \item{language}{Language ISO code (default: "EN").}
 
-\item{start_date}{Start date (YYYY-MM-DD).}
+\item{start_date}{Start date of time period (YYYY-MM-DD).}
 
-\item{end_date}{End date (YYYY-MM-DD).}
+\item{end_date}{End date of time period (YYYY-MM-DD).}
 }
 \value{
 A data frame of holidays for a given country and time period.
 }
 \description{
-Get public holidays for a given country and year
+Get public holidays for a given country and time period
 }
 \examples{
 # Get all holidays for Germany for the year 2025
 \dontrun{
-oh_holidays(country = "DE",
+oh_public_holidays(country = "DE",
             language = "EN",
             start_date = "2025-01-01",
             end_date = "2025-12-31")
