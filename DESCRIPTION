@@ -19,3 +19,5 @@ Imports:
     httr2
 URL: https://github.com/jfeldhege/openholidaysR, http://www.johannesfeldhege.de/openholidaysR/
 BugReports: https://github.com/jfeldhege/openholidaysR/issues
+Depends: 
+    R (>= 4.1)
