@@ -1,17 +1,17 @@
 
-#' Get public holidays for a given country and year
+#' Get public holidays for a given country and time period
 #'
 #' @param country Country ISO code (e.g. "DE" for Germany).
 #' @param language Language ISO code (default: "EN").
-#' @param start_date Start date (YYYY-MM-DD).
-#' @param end_date End date (YYYY-MM-DD).
+#' @param start_date Start date of time period (YYYY-MM-DD).
+#' @param end_date End date of time period (YYYY-MM-DD).
 #'
 #' @return A data frame of holidays for a given country and time period.
 #'
 #' @examples
 #' # Get all holidays for Germany for the year 2025
 #' \dontrun{
-#' oh_holidays(country = "DE",
+#' oh_public_holidays(country = "DE",
 #'             language = "EN",
 #'             start_date = "2025-01-01",
 #'             end_date = "2025-12-31")
@@ -43,7 +43,7 @@ oh_public_holidays <- function(country,
 #'
 #' @examples
 #' \dontrun{
-#' oh_holiday_by_date(date = "2025-12-25")
+#' oh_public_holiday_by_date(date = "2025-12-25")
 #' }
 #' @export
 oh_public_holidays_by_date <- function(date,
@@ -114,7 +114,7 @@ oh_school_holidays <- function(country,
 #'
 #' @examples
 #' \dontrun{
-#' oh_holiday_by_date(date = "2025-12-25")
+#' oh_school_holiday_by_date(date = "2025-12-25")
 #' }
 #' @export
 oh_school_holidays_by_date <- function(date,
