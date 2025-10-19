@@ -11,9 +11,9 @@
 #'
 #' @examples
 #' \dontrun{
-#' oh_stat_public_holidays("DE")
+#' oh_stat_public_holidays(country = "DE")
 #'
-#' oh_stat_school_holidays("DE")
+#' oh_stat_school_holidays(country = "DE", subdivsion = "DE-HH")
 #' }
 #' @name oh_stat_public_holidays
 #' @export
