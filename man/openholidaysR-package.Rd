@@ -6,7 +6,7 @@
 \alias{openholidaysR-package}
 \title{openholidaysR: Provides access to the OpenHolidays API}
 \description{
-Provides dates for public and school holidays for a number of countries and their subdivisions through the OpenHolidays API at https://openholidaysapi.org/.
+Provides dates for public and school holidays for a number of countries and their subdivisions through the 'OpenHolidays' API at https://openholidaysapi.org/.
 }
 \seealso{
 Useful links:
