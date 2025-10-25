@@ -1,6 +1,6 @@
 Package: openholidaysR
 Title: Provides Access to the OpenHolidays API
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person("Johannes", "Feldhege", , "mail@johannesfeldhege.de", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0002-4665-5235"))
