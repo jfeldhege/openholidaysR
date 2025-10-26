@@ -6,7 +6,7 @@ Authors@R:
            comment = c(ORCID = "0000-0002-4665-5235"))
 Description: Provides dates for public and school holidays for a number of
     countries and their subdivisions through the 'OpenHolidays' API at
-    <https://openholidaysapi.org/>.
+    <https://www.openholidaysapi.org/en/>.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Language: en
