@@ -6,7 +6,7 @@
 #' @param start_date Start date of time period (YYYY-MM-DD).
 #' @param end_date End date of time period (YYYY-MM-DD).
 #'
-#' @return A data frame of holidays for a given country and time period.
+#' @returns A data frame of holidays for a given country and time period.
 #'
 #' @examples
 #' # Get all holidays for Germany for the year 2025
@@ -75,7 +75,7 @@ oh_public_holidays_by_date <- function(date,
 #' specific subdivision such as state/province).
 #' @param language Language code (default: "EN").
 #'
-#' @return A data frame of school holidays.
+#' @returns A data frame of school holidays.
 #' @examples
 #' \dontrun{
 #'   oh_school_holidays("DE", "2025-01-01", "2025-12-31")

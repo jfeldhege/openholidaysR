@@ -4,9 +4,9 @@
 \name{openholidaysR-package}
 \alias{openholidaysR}
 \alias{openholidaysR-package}
-\title{openholidaysR: Provides access to the OpenHolidays API}
+\title{openholidaysR: Provides Access to the OpenHolidays API}
 \description{
-Provides dates for public and school holidays for a number of countries and their subdivisions through the 'OpenHolidays' API at https://openholidaysapi.org/.
+Provides dates for public and school holidays for a number of countries and their subdivisions through the 'OpenHolidays' API at \url{https://www.openholidaysapi.org/en/}.
 }
 \seealso{
 Useful links:

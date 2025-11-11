@@ -3,10 +3,10 @@
 #'
 #' @param endpoint API endpoint (e.g. "Countries", "HolidayTypes").
 #' @param query Named list of query parameters.
-#' @return A httr2 request object.
+#' @returns A httr2 request object.
 #' @examples
 #' req <- oh_request("Countries")
-#' @export
+#' @noRd
 oh_request <- function(endpoint, query = list()) {
   base_url <- "https://openholidaysapi.org"
 
@@ -29,8 +29,8 @@ oh_request <- function(endpoint, query = list()) {
 #' @param empty_df A data frame with the expected structure to return on
 #' failure.
 #'
-#' @return A data frame with the parsed API response or an empty fallback.
-#' @keywords internal
+#' @returns A data frame with the parsed API response or an empty fallback.
+#' @noRd
 oh_perform_request <- function(req, empty_df = data.frame()) {
   tryCatch({
     resp <- req |>

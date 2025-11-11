@@ -3,7 +3,7 @@
 #' This function retrieves the list of supported languages from the
 #' OpenHolidays API.
 #'
-#' @return A data frame of available languages (ISO code + localized name).
+#' @returns A data frame of available languages (ISO code + localized name).
 #' @examples
 #' \dontrun{
 #'   oh_languages()
@@ -24,7 +24,7 @@ oh_languages <- function() {
 #' @param country Country ISO code (e.g., "DE" for Germany).
 #' @param language Language code (default: "EN").
 #'
-#' @return A data frame of subdivisions.
+#' @returns A data frame of subdivisions.
 #' @examplesIf interactive()
 #'   oh_subdivisions(country = "DE")
 #'
@@ -45,7 +45,7 @@ oh_subdivisions <- function(country,
 #' Get list of countries supported by OpenHolidays
 #'
 #' @param language Language code (default: "EN").
-#' @return A data frame of supported countries.
+#' @returns A data frame of supported countries.
 #' @examples
 #' \dontrun{
 #'   oh_countries(language = "DE")
