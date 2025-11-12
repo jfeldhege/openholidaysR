@@ -4,10 +4,9 @@
 #' OpenHolidays API.
 #'
 #' @returns A data frame of available languages (ISO code + localized name).
-#' @examples
-#' \dontrun{
+#' @examplesIf interactive()
 #'   oh_languages()
-#' }
+#'
 #' @export
 oh_languages <- function() {
   req <- oh_request("Languages")
@@ -46,10 +45,9 @@ oh_subdivisions <- function(country,
 #'
 #' @param language Language code (default: "EN").
 #' @returns A data frame of supported countries.
-#' @examples
-#' \dontrun{
+#' @examplesIf interactive()
 #'   oh_countries(language = "DE")
-#' }
+#'
 #' @export
 oh_countries <- function(language = "EN") {
   req <- oh_request("Countries",
