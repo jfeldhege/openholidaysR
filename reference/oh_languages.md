@@ -16,7 +16,7 @@ A data frame of available languages (ISO code + localized name).
 ## Examples
 
 ``` r
-if (FALSE) { # \dontrun{
+if (FALSE) { # interactive()
   oh_languages()
-} # }
+}
 ```

@@ -21,7 +21,7 @@ A data frame of supported countries.
 ## Examples
 
 ``` r
-if (FALSE) { # \dontrun{
+if (FALSE) { # interactive()
   oh_countries(language = "DE")
-} # }
+}
 ```
