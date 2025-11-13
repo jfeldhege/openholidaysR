@@ -19,6 +19,6 @@ Get public holidays for a specific date for all countries
 }
 \examples{
 \dontshow{if (identical(Sys.getenv("IN_PKGDOWN"), "true")) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
-oh_public_holiday_by_date(date = "2025-12-25")
+oh_public_holidays_by_date(date = "2025-12-25")
 \dontshow{\}) # examplesIf}
 }

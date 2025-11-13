@@ -42,7 +42,7 @@ oh_public_holidays <- function(country,
 #' @returns A data frame of holidays for all countries.
 #'
 #' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")
-#' oh_public_holiday_by_date(date = "2025-12-25")
+#' oh_public_holidays_by_date(date = "2025-12-25")
 #'
 #' @export
 oh_public_holidays_by_date <- function(date,
@@ -62,7 +62,7 @@ oh_public_holidays_by_date <- function(date,
 
 
 
-#' Returns statistical data about holidays for a given country
+#' Get school holidays for a given country and time period
 #'
 #' This function retrieves school holidays from the OpenHolidays API
 #' for a specified country within a given date range.
@@ -75,11 +75,11 @@ oh_public_holidays_by_date <- function(date,
 #' @param language Language code (default: "EN").
 #'
 #' @returns A data frame of school holidays.
-#' @examples
-#' \dontrun{
+#'
+#' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")
 #'   oh_school_holidays("DE", "2025-01-01", "2025-12-31")
 #'   oh_school_holidays("DE", "2025-01-01", "2025-12-31", subdivision = "DE-BY")
-#' }
+#'
 #' @export
 oh_school_holidays <- function(country,
                                language = "EN",
@@ -111,10 +111,9 @@ oh_school_holidays <- function(country,
 #'
 #' @returns A data frame of school holidays for all countries.
 #'
-#' @examples
-#' \dontrun{
+#' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")
 #' oh_school_holiday_by_date(date = "2025-12-25")
-#' }
+#'
 #' @export
 oh_school_holidays_by_date <- function(date,
                                        language = "EN") {

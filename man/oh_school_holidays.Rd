@@ -2,7 +2,7 @@
 % Please edit documentation in R/holidays.R
 \name{oh_school_holidays}
 \alias{oh_school_holidays}
-\title{Returns statistical data about holidays for a given country}
+\title{Get school holidays for a given country and time period}
 \usage{
 oh_school_holidays(
   country,
@@ -32,8 +32,8 @@ This function retrieves school holidays from the OpenHolidays API
 for a specified country within a given date range.
 }
 \examples{
-\dontrun{
+\dontshow{if (identical(Sys.getenv("IN_PKGDOWN"), "true")) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
   oh_school_holidays("DE", "2025-01-01", "2025-12-31")
   oh_school_holidays("DE", "2025-01-01", "2025-12-31", subdivision = "DE-BY")
-}
+\dontshow{\}) # examplesIf}
 }

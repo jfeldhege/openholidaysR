@@ -14,7 +14,7 @@
 #' oh_stat_public_holidays(country = "DE")
 #'
 #' # Statistical data about school holidays in Hamburg
-#' oh_stat_school_holidays(country = "DE", subdivsion = "DE-HH")
+#' oh_stat_school_holidays(country = "DE", subdivision = "DE-HH")
 #'
 #' @name oh_stat_public_holidays
 #' @export
