@@ -8,14 +8,14 @@
 #'
 #' @returns A data frame of holidays for a given country and time period.
 #'
-#' @examples
+#' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")
 #' # Get all holidays for Germany for the year 2025
-#' \dontrun{
+#'
 #' oh_public_holidays(country = "DE",
-#'             language = "EN",
-#'             start_date = "2025-01-01",
-#'             end_date = "2025-12-31")
-#'}
+#'                    language = "EN",
+#'                    start_date = "2025-01-01",
+#'                    end_date = "2025-12-31")
+#'
 #' @export
 oh_public_holidays <- function(country,
                                language = "EN",
@@ -41,10 +41,9 @@ oh_public_holidays <- function(country,
 #'
 #' @returns A data frame of holidays for all countries.
 #'
-#' @examples
-#' \dontrun{
+#' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")
 #' oh_public_holiday_by_date(date = "2025-12-25")
-#' }
+#'
 #' @export
 oh_public_holidays_by_date <- function(date,
                                        language = "EN") {

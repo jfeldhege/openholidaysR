@@ -16,7 +16,7 @@ A data frame of supported countries.
 Get list of countries supported by OpenHolidays
 }
 \examples{
-\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
-  oh_countries(language = "DE")
+\dontshow{if (identical(Sys.getenv("IN_PKGDOWN"), "true")) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+oh_countries(language = "DE")
 \dontshow{\}) # examplesIf}
 }

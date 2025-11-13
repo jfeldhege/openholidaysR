@@ -5,7 +5,7 @@
 #'
 #' @returns A data frame of available languages (ISO code + localized name).
 #' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")
-#'   oh_languages()
+#' oh_languages()
 #'
 #' @export
 oh_languages <- function() {
@@ -25,7 +25,7 @@ oh_languages <- function() {
 #'
 #' @returns A data frame of subdivisions.
 #' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")
-#'   oh_subdivisions(country = "DE")
+#' oh_subdivisions(country = "DE")
 #'
 #' @export
 oh_subdivisions <- function(country,
@@ -45,8 +45,8 @@ oh_subdivisions <- function(country,
 #'
 #' @param language Language code (default: "EN").
 #' @returns A data frame of supported countries.
-#' @examplesIf interactive()
-#'   oh_countries(language = "DE")
+#' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")
+#' oh_countries(language = "DE")
 #'
 #' @export
 oh_countries <- function(language = "EN") {

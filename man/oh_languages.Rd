@@ -15,6 +15,6 @@ OpenHolidays API.
 }
 \examples{
 \dontshow{if (identical(Sys.getenv("IN_PKGDOWN"), "true")) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
-  oh_languages()
+oh_languages()
 \dontshow{\}) # examplesIf}
 }

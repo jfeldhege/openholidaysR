@@ -9,12 +9,13 @@
 #'
 #' @returns A data frame containing youngestStartDate and oldestStartDate.
 #'
-#' @examples
-#' \dontrun{
+#' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")
+#' # Statistical data about public holidays in Germany
 #' oh_stat_public_holidays(country = "DE")
 #'
+#' # Statistical data about school holidays in Hamburg
 #' oh_stat_school_holidays(country = "DE", subdivsion = "DE-HH")
-#' }
+#'
 #' @name oh_stat_public_holidays
 #' @export
 oh_stat_public_holidays <- function(country,

@@ -22,9 +22,11 @@ A data frame containing youngestStartDate and oldestStartDate.
 Reads statistical data about stored holidays
 }
 \examples{
-\dontrun{
+\dontshow{if (identical(Sys.getenv("IN_PKGDOWN"), "true")) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+# Statistical data about public holidays in Germany
 oh_stat_public_holidays(country = "DE")
 
+# Statistical data about school holidays in Hamburg
 oh_stat_school_holidays(country = "DE", subdivsion = "DE-HH")
-}
+\dontshow{\}) # examplesIf}
 }

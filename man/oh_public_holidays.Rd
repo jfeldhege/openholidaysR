@@ -22,11 +22,12 @@ A data frame of holidays for a given country and time period.
 Get public holidays for a given country and time period
 }
 \examples{
+\dontshow{if (identical(Sys.getenv("IN_PKGDOWN"), "true")) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
 # Get all holidays for Germany for the year 2025
-\dontrun{
+
 oh_public_holidays(country = "DE",
-            language = "EN",
-            start_date = "2025-01-01",
-            end_date = "2025-12-31")
-}
+                   language = "EN",
+                   start_date = "2025-01-01",
+                   end_date = "2025-12-31")
+\dontshow{\}) # examplesIf}
 }
