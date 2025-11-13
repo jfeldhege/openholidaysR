@@ -14,7 +14,7 @@ This function retrieves the list of supported languages from the
 OpenHolidays API.
 }
 \examples{
-\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (identical(Sys.getenv("IN_PKGDOWN"), "true")) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
   oh_languages()
 \dontshow{\}) # examplesIf}
 }

@@ -19,7 +19,7 @@ This function retrieves administrative subdivisions (e.g., states, provinces)
 for a specified country from the OpenHolidays API.
 }
 \examples{
-\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (identical(Sys.getenv("IN_PKGDOWN"), "true")) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
   oh_subdivisions(country = "DE")
 \dontshow{\}) # examplesIf}
 }
