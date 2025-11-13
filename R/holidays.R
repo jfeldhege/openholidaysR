@@ -77,8 +77,14 @@ oh_public_holidays_by_date <- function(date,
 #' @returns A data frame of school holidays.
 #'
 #' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")
-#'   oh_school_holidays("DE", "2025-01-01", "2025-12-31")
-#'   oh_school_holidays("DE", "2025-01-01", "2025-12-31", subdivision = "DE-BY")
+#' oh_school_holidays(country = "DE",
+#'                    start_date = "2025-01-01",
+#'                    end_date = "2025-01-31")
+#'
+#'oh_school_holidays(country = "DE",
+#'                   start_date = "2025-01-01",
+#'                   end_date = "2025-01-31",
+#'                   subdivision = "DE-BY")
 #'
 #' @export
 oh_school_holidays <- function(country,
@@ -112,7 +118,7 @@ oh_school_holidays <- function(country,
 #' @returns A data frame of school holidays for all countries.
 #'
 #' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")
-#' oh_school_holiday_by_date(date = "2025-12-25")
+#' oh_school_holidays_by_date(date = "2025-01-06")
 #'
 #' @export
 oh_school_holidays_by_date <- function(date,

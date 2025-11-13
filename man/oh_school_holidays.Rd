@@ -33,7 +33,13 @@ for a specified country within a given date range.
 }
 \examples{
 \dontshow{if (identical(Sys.getenv("IN_PKGDOWN"), "true")) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
-  oh_school_holidays("DE", "2025-01-01", "2025-12-31")
-  oh_school_holidays("DE", "2025-01-01", "2025-12-31", subdivision = "DE-BY")
+oh_school_holidays(country = "DE",
+                   start_date = "2025-01-01",
+                   end_date = "2025-01-31")
+
+oh_school_holidays(country = "DE",
+                  start_date = "2025-01-01",
+                  end_date = "2025-01-31",
+                  subdivision = "DE-BY")
 \dontshow{\}) # examplesIf}
 }
