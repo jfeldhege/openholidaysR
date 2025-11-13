@@ -4,7 +4,7 @@
 #' OpenHolidays API.
 #'
 #' @returns A data frame of available languages (ISO code + localized name).
-#' @examplesIf interactive()
+#' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")
 #'   oh_languages()
 #'
 #' @export
@@ -24,7 +24,7 @@ oh_languages <- function() {
 #' @param language Language code (default: "EN").
 #'
 #' @returns A data frame of subdivisions.
-#' @examplesIf interactive()
+#' @examplesIf identical(Sys.getenv("IN_PKGDOWN"), "true")
 #'   oh_subdivisions(country = "DE")
 #'
 #' @export
