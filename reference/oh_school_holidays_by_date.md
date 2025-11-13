@@ -25,7 +25,6 @@ A data frame of school holidays for all countries.
 ## Examples
 
 ``` r
-if (FALSE) { # \dontrun{
 oh_school_holiday_by_date(date = "2025-12-25")
-} # }
+#> Error in oh_school_holiday_by_date(date = "2025-12-25"): could not find function "oh_school_holiday_by_date"
 ```

@@ -11,7 +11,7 @@
 - [`oh_public_holidays_by_date()`](http://www.johannesfeldhege.de/openholidaysR/reference/oh_public_holidays_by_date.md)
   : Get public holidays for a specific date for all countries
 - [`oh_school_holidays()`](http://www.johannesfeldhege.de/openholidaysR/reference/oh_school_holidays.md)
-  : Returns statistical data about holidays for a given country
+  : Get school holidays for a given country and time period
 - [`oh_school_holidays_by_date()`](http://www.johannesfeldhege.de/openholidaysR/reference/oh_school_holidays_by_date.md)
   : Get school holidays for a specific date for all countries
 - [`oh_stat_public_holidays()`](http://www.johannesfeldhege.de/openholidaysR/reference/oh_stat_public_holidays.md)

@@ -61,8 +61,115 @@
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">oh_public_holiday_by_date</span><span class="op">(</span>date <span class="op">=</span> <span class="st">"2025-12-25"</span><span class="op">)</span></span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in oh_public_holiday_by_date(date = "2025-12-25"):</span> could not find function "oh_public_holiday_by_date"</span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">oh_public_holidays_by_date</span><span class="op">(</span>date <span class="op">=</span> <span class="st">"2025-12-25"</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                                      id isoCode   type</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1  0dd2d082-11c3-409c-898f-fe9bad348c37      CH Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2  12c674c3-9286-4864-ae5a-e5335ceeed0b      SE Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3  1b3e4f39-f296-4001-8bc3-b52c73a5e652      IT Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4  23a6c92d-52eb-40dd-94bd-4e9af0e6ae31      ES Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5  2ad705aa-662e-4c5c-8652-5632aa3e3a73      AT Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6  2cad04d7-46b3-4c15-a337-e662331c187d      BG Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 7  2f6b8dbe-aa08-4d05-8ed1-7b01f164ab44      BY Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 8  32acf663-5ce4-43a7-8a2a-8f6ff8e3f2a3      MD Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 9  36df59f9-b7ab-4670-b8e4-972ba4b451d0      VA Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 10 3a479031-cdc0-4620-8998-a204db9b8e46      HR Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 11 3afad486-ca1b-4d95-ba5e-e4080e3b5aa7      MX Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 12 453b2f83-0b27-4f57-8aef-7698f5c19ae7      CZ Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 13 4ede930f-f42a-4246-a64d-6c99230404e1      LI Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 14 5455ad16-2848-498c-967c-243ac2c4f9c5      AD Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 15 59f3aece-0ae6-4032-9805-3eb826c03e96      MC Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 16 6333278b-6a85-45c4-9e63-c7442cd273c1      FR Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 17 699f7d98-0128-4f24-b7b5-18b8033ef804      EE Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 18 700a97c8-fa28-48ae-960a-e6ee7b7af886      SI Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 19 832a62b0-bafe-488e-b210-ff7521740acb      SM Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 20 8332993f-238d-4d24-825b-c4de74e85304      IE Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 21 8fe682a5-186c-47f5-82af-92866f4cd7e3      LV Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 22 9070d806-9484-48f4-8f59-33fd2f8c9a51      LU Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 23 92b270e3-247f-4f82-b79d-b5ad77a67d95      DE Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 24 9824adc5-fbf0-4800-ab29-cf8cdbef7fca      PT Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 25 a3fa910c-014b-4de0-895d-f499b1c471a6      ZA Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 26 a5bc4f0e-7cea-4c0f-ab85-05078b2613f2      BR Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 27 aab97b1f-3841-4b74-a6ca-d7066b2f88c8      MT Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 28 ad7911e1-c982-4fcd-a86c-5ae66c4deb4b      AL Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 29 b69c396f-4ace-4126-bd64-f67fd9119c29      NL Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 30 cbb3e717-90bc-4df1-8b72-e86f370f1284      BE Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 31 cf4c2e90-bc31-4662-a9e5-00af3f6b574c      HU Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 32 d3e65eb8-9dc1-475a-8647-2e9a043142a2      SK Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 33 e1cc1566-6056-4994-baf6-11b6f775074f      PL Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 34 f506d9cb-0af4-4c3b-a3f5-a2775fbb1aff      LT Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 35 fc66765d-fe3d-4837-8a81-1bba30a49bf5      RO Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                                                    name regionalScope</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1                                         EN, Christmas      Regional</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2                                     EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3                                     EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4                                     EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5                                     EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6                                     EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 7                                EN, Catholic Christmas      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 8  EN, Birth of Jesus Christ (Christmas in a new style)      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 9                                     EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 10                                        EN, Christmas      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 11                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 12                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 13                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 14                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 15                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 16                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 17                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 18                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 19                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 20                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 21                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 22                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 23                                    EN, Christmas Day      Regional</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 24                                        EN, Christmas      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 25                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 26                                        EN, Christmas      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 27                                    EN, ​​​​Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 28                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 29                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 30                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 31                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 32                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 33                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 34                                    EN, Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 35                              EN, First Christmas Day      National</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    temporalScope nationwide tags</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1        FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2        FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3        FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4        FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5        FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6        FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 7        FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 8        FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 9        FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 10       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 11       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 12       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 13       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 14       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 15       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 16       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 17       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 18       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 19       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 20       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 21       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 22       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 23       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 24       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 25       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 26       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 27       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 28       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 29       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 30       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 31       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 32       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 33       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 34       FullDay       TRUE    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 35       FullDay       TRUE    0</span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
