@@ -16,7 +16,7 @@ A data frame of available languages (ISO code + localized name).
 ## Examples
 
 ``` r
-  oh_languages()
+oh_languages()
 #>    isoCode                                                       name
 #> 1       BE            EN, BE, DE, Belarusian, беларускі, Belarussisch
 #> 2       BG               EN, BG, DE, Bulgarian, Български, Bulgarisch

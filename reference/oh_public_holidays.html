@@ -70,12 +70,77 @@
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="co"># Get all holidays for Germany for the year 2025</span></span></span>
-<span class="r-in"><span><span class="kw">if</span> <span class="op">(</span><span class="cn">FALSE</span><span class="op">)</span> <span class="op">{</span> <span class="co"># \dontrun{</span></span></span>
+<span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="fu">oh_public_holidays</span><span class="op">(</span>country <span class="op">=</span> <span class="st">"DE"</span>,</span></span>
-<span class="r-in"><span>            language <span class="op">=</span> <span class="st">"EN"</span>,</span></span>
-<span class="r-in"><span>            start_date <span class="op">=</span> <span class="st">"2025-01-01"</span>,</span></span>
-<span class="r-in"><span>            end_date <span class="op">=</span> <span class="st">"2025-12-31"</span><span class="op">)</span></span></span>
-<span class="r-in"><span><span class="op">}</span> <span class="co"># }</span></span></span>
+<span class="r-in"><span>                   language <span class="op">=</span> <span class="st">"EN"</span>,</span></span>
+<span class="r-in"><span>                   start_date <span class="op">=</span> <span class="st">"2025-01-01"</span>,</span></span>
+<span class="r-in"><span>                   end_date <span class="op">=</span> <span class="st">"2025-12-31"</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                                      id  startDate    endDate   type</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1  27f0d8cd-76b2-47e7-89ac-a3a9f6a6b1ba 2025-01-01 2025-01-01 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2  1c80b87d-8221-4dc2-9a1a-3b0f57dce9f5 2025-01-06 2025-01-06 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3  4522bbfa-eaee-4efe-b13c-dac7f67bb986 2025-03-08 2025-03-08 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4  c7aef0d5-f292-4d08-b878-a25a6c05fc12 2025-04-18 2025-04-18 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5  90718fa1-5b71-49dc-90a4-142a8aef72d8 2025-04-20 2025-04-20 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6  12776265-e638-4112-a11f-f24bb37d8a3d 2025-04-21 2025-04-21 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 7  5db64014-1aaf-46f0-be83-d8baa826cfef 2025-05-01 2025-05-01 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 8  4905efd7-e75e-4930-80b8-d35ca157e5bf 2025-05-08 2025-05-08 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 9  9fbbb949-8b22-4916-a16c-0a799a2dd79f 2025-05-29 2025-05-29 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 10 edfb560a-d5c6-493f-b1c1-06f2936347e7 2025-06-08 2025-06-08 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 11 b52574c0-0e5d-44ff-ac6b-4e3c6d71f1d7 2025-06-09 2025-06-09 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 12 2590b1ad-4268-4cac-a11a-5192791d0c0d 2025-06-19 2025-06-19 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 13 dc74ad4c-cea7-426a-bef2-ce38fa3435ef 2025-08-08 2025-08-08 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 14 e09a9106-86e9-4eeb-9c84-5d257b4f9488 2025-08-15 2025-08-15 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 15 7d63faa9-5577-4527-a192-edf54e28cd1a 2025-09-20 2025-09-20 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 16 ac964e18-2d34-497a-a9c5-b8ab065b7238 2025-10-03 2025-10-03 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 17 2514f889-8ff3-460c-b12c-c886f8b653de 2025-10-31 2025-10-31 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 18 0e5ed383-7890-4f12-b041-65a79aedeb5f 2025-11-01 2025-11-01 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 19 1d68ac36-9690-4b06-b62d-de890d5b50ef 2025-11-19 2025-11-19 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 20 92b270e3-247f-4f82-b79d-b5ad77a67d95 2025-12-25 2025-12-25 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 21 28bf580c-9787-4d67-ab3e-06a5e6597c1c 2025-12-26 2025-12-26 Public</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                             name regionalScope temporalScope nationwide    tags</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1             EN, New Year's Day      Regional       FullDay       TRUE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2                   EN, Epiphany      Regional       FullDay      FALSE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3  EN, International Women's Day      Regional       FullDay      FALSE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4                EN, Good Friday      Regional       FullDay       TRUE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5              EN, Easter Sunday      Regional       FullDay      FALSE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6              EN, Easter Monday      Regional       FullDay       TRUE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 7                 EN, Labour Day      Regional       FullDay       TRUE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 8             EN, Liberation Day      Regional       FullDay      FALSE OneTime</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 9              EN, Ascension Day      Regional       FullDay       TRUE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 10          EN, Pentecost Sunday      Regional       FullDay      FALSE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 11          EN, Pentecost Monday      Regional       FullDay       TRUE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 12            EN, Corpus Christi      Regional       FullDay      FALSE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 13    EN, High Festival of Peace         Local       FullDay      FALSE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 14            EN, Assumption Day      Regional       FullDay      FALSE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 15      EN, World Children's Day      Regional       FullDay      FALSE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 16       EN, Day of German Unity      National       FullDay       TRUE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 17           EN, Reformation Day      Regional       FullDay      FALSE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 18           EN, All Saints' Day      Regional       FullDay      FALSE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 19            EN, Repentance Day      Regional       FullDay      FALSE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 20             EN, Christmas Day      Regional       FullDay       TRUE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 21      EN, 2nd Day of Christmas      Regional       FullDay       TRUE       0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                                                                                         subdivisions</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1                                                                                               NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2                                                                    DE-BW, DE-ST, DE-BY, BW, ST, BY</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3                                                                               DE-MV, DE-BE, MV, BE</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4                                                                                               NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5                                                                                          DE-BB, BB</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6                                                                                               NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 7                                                                                               NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 8                                                                                          DE-BE, BE</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 9                                                                                               NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 10                                                                                         DE-BB, BB</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 11                                                                                              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 12                                  DE-SL, DE-HE, DE-BW, DE-NW, DE-BY, DE-RP, SL, HE, BW, NW, BY, RP</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 13                                                                                   DE-BY-AU, BY-AU</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 14                                                                              DE-SL, DE-BY, SL, BY</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 15                                                                                         DE-TH, TH</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 16                                                                                              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 17 DE-SN, DE-SH, DE-HB, DE-MV, DE-TH, DE-ST, DE-HH, DE-BB, DE-NI, SN, SH, HB, MV, TH, ST, HH, BB, NI</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 18                                             DE-SL, DE-BW, DE-NW, DE-BY, DE-RP, SL, BW, NW, BY, RP</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 19                                                                                         DE-SN, SN</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 20                                                                                              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 21                                                                                              NULL</span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>

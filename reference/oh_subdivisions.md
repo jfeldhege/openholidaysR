@@ -26,7 +26,7 @@ A data frame of subdivisions.
 ## Examples
 
 ``` r
-  oh_subdivisions(country = "DE")
+oh_subdivisions(country = "DE")
 #>     code isoCode shortName          category                              name
 #> 1  DE-BB   DE-BB        BB EN, federal state                   EN, Brandenburg
 #> 2  DE-BE   DE-BE        BE EN, federal state                        EN, Berlin

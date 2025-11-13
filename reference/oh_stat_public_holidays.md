@@ -28,9 +28,12 @@ A data frame containing youngestStartDate and oldestStartDate.
 ## Examples
 
 ``` r
-if (FALSE) { # \dontrun{
+# Statistical data about public holidays in Germany
 oh_stat_public_holidays(country = "DE")
+#>   youngestStartDate oldestStartDate
+#> 1        2030-12-26      2020-01-01
 
+# Statistical data about school holidays in Hamburg
 oh_stat_school_holidays(country = "DE", subdivsion = "DE-HH")
-} # }
+#> Error in oh_stat_school_holidays(country = "DE", subdivsion = "DE-HH"): unused argument (subdivsion = "DE-HH")
 ```

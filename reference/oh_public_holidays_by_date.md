@@ -25,7 +25,6 @@ A data frame of holidays for all countries.
 ## Examples
 
 ``` r
-if (FALSE) { # \dontrun{
 oh_public_holiday_by_date(date = "2025-12-25")
-} # }
+#> Error in oh_public_holiday_by_date(date = "2025-12-25"): could not find function "oh_public_holiday_by_date"
 ```
