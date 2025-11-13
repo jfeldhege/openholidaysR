@@ -25,6 +25,197 @@ A data frame of school holidays for all countries.
 ## Examples
 
 ``` r
-oh_school_holiday_by_date(date = "2025-12-25")
-#> Error in oh_school_holiday_by_date(date = "2025-12-25"): could not find function "oh_school_holiday_by_date"
+oh_school_holidays_by_date(date = "2025-01-06")
+#>                                      id isoCode   type
+#> 1  117b6627-e670-40b0-ae29-d3a1cf94d7f7      FR School
+#> 2  fac41a06-66b9-4052-842a-44c2beebc394      ZA School
+#> 3  8c406693-b4d0-4cf2-8949-165eeb20ce08      FR School
+#> 4  ade0ef11-b174-4694-81a7-f4070e5c0803      DE School
+#> 5  79017dd1-94f2-4f25-9dda-47b8505c1e66      ES School
+#> 6  090ba020-ef03-4ab7-96f4-0edbfdfcaa8f      CH School
+#> 7  26273d78-c667-4dd4-af90-d4db9bc3b5fd      CH School
+#> 8  5da330c0-5482-4da2-84c3-85fd9e6f0755      LI School
+#> 9  85d025e7-c194-46e1-ae32-3a7650037267      ES School
+#> 10 a7683c42-d478-4eb6-8fc3-ffde5d0de147      ES School
+#> 11 e783acd1-f48a-4239-a737-0f6e7d0de13b      ES School
+#> 12 ea6ea79a-a281-450c-9e40-438ea94b771f      RO School
+#> 13 fd1c1634-ada1-4d46-a3b8-0696e2dba2bc      ES School
+#> 14 04d4e12c-859c-4cd5-afc4-e6080ba211b5      ES School
+#> 15 0751ee46-72d2-4a2e-814b-fc16f7ade1df      ES School
+#> 16 191f84ee-99ba-4311-be98-494334469d1e      DE School
+#> 17 1ab43b06-1b7f-4948-b583-2ca86cf7b784      ES School
+#> 18 29bd10aa-e6b8-4760-a44e-6a88ab783f03      DE School
+#> 19 30be0c8a-fd3a-4737-89bd-ae20a56e48ed      ES School
+#> 20 3ee86069-bc75-4969-a5b5-59cf3812c066      AD School
+#> 21 5a8c57f5-c76b-4631-ada8-9a86f3e92e7a      ES School
+#> 22 5ee237f0-f758-429f-a063-7f2b95e88385      ES School
+#> 23 6076a752-a5bc-48a4-afca-cde8ac15bfcf      ES School
+#> 24 6b5d47c9-550c-4d36-8eea-32ccbc6a817c      IT School
+#> 25 738023d8-9af3-445a-853f-94fa279b128d      DE School
+#> 26 84ce6374-370b-4b6a-8144-08341dad89fe      ES School
+#> 27 9aa383d5-0542-4144-9ebf-09e9b080d567      ES School
+#> 28 9ef87e2e-c15e-4689-8daa-3005beca505f      MT School
+#> 29 a6f6067b-0085-4e30-a602-22a15a87a2b8      ES School
+#> 30 abfbe854-a89a-4615-8e1a-50ff7195749e      ES School
+#> 31 bc0c0206-1df4-4846-9d2a-f1c19fa359b6      ES School
+#> 32 bd24179b-9f65-43dc-9904-b6159c7c62c4      DE School
+#> 33 be2d1177-c796-43be-bf17-80134211bb41      ES School
+#> 34 bfa9d212-0024-4859-b23b-b50adcad3554      SK School
+#> 35 c3c991eb-8a9d-4456-abce-963381cfe95d      ES School
+#> 36 dcf7f892-e861-4fb4-86b4-8d0e51e1131b      ES School
+#> 37 eda431ee-3212-4dbe-8473-aecc2bd66d04      HR School
+#> 38 0088bcea-492b-4ec2-8313-f66d606afceb      ES School
+#> 39 3ba36199-3912-4ee0-a299-b4214acbf831      ES School
+#> 40 4d1609b6-86ae-4338-9c02-46b2f9616cc3      ES School
+#> 41 d5aeb249-576b-4297-a34f-71161f1c8dc0      IT School
+#> 42 e3d0a97e-de38-4e5a-bdf0-c8c1ba7a6119      AT School
+#> 43 f80c6fbf-fef7-4370-86f0-66b7b8e2aa49      ES School
+#> 44 328a9407-6299-4bc3-8b09-cd7636b7d515      MD School
+#> 45 e13d7772-808b-4462-aaed-c236be9594d3      CH School
+#> 46 f7cf96aa-fb4e-4881-9227-8e084077bb18      BY School
+#> 47 249308fe-68e8-4d09-b55e-2538f8acb256      RS School
+#>                            name regionalScope temporalScope nationwide
+#> 1        EN, Christmas Holidays      Regional       FullDay      FALSE
+#> 2              EN, Summer Break      National       FullDay       TRUE
+#> 3  EN, Southern summer holidays      Regional       FullDay      FALSE
+#> 4        EN, Christmas Holidays      Regional       FullDay      FALSE
+#> 5        EN, Christmas holidays      Regional       FullDay      FALSE
+#> 6                 EN, Christmas      Regional       FullDay      FALSE
+#> 7                 EN, Christmas      Regional       FullDay      FALSE
+#> 8        EN, Christmas holidays      National       FullDay       TRUE
+#> 9        EN, Christmas holidays      Regional       FullDay      FALSE
+#> 10       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 11       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 12          EN, Winter holidays      National       FullDay       TRUE
+#> 13       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 14       EN, Christmas holidays         Local       FullDay      FALSE
+#> 15       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 16       EN, Christmas Holidays      Regional       FullDay      FALSE
+#> 17       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 18       EN, Christmas Holidays      Regional       FullDay      FALSE
+#> 19       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 20       EN, Christmas holidays      National       FullDay       TRUE
+#> 21       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 22          EN, Christmas break      Regional       FullDay      FALSE
+#> 23       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 24       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 25       EN, Christmas Holidays      Regional       FullDay      FALSE
+#> 26       EN, Christmas holidays         Local       FullDay      FALSE
+#> 27               EN, No lessons      Regional       FullDay      FALSE
+#> 28       EN, Christmas holidays      National       FullDay       TRUE
+#> 29       EN, Christmas holidays         Local       FullDay      FALSE
+#> 30       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 31       EN, Christmas holidays         Local       FullDay      FALSE
+#> 32       EN, Christmas Holidays      Regional       FullDay      FALSE
+#> 33       EN, Christmas holidays         Local       FullDay      FALSE
+#> 34       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 35       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 36       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 37 EN, Winter holidays (part 2)      National       FullDay       TRUE
+#> 38       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 39       EN, Christmas holidays         Local       FullDay      FALSE
+#> 40       EN, Christmas holidays         Local       FullDay      FALSE
+#> 41       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 42       EN, Christmas Holidays      National       FullDay       TRUE
+#> 43       EN, Christmas holidays      Regional       FullDay      FALSE
+#> 44          EN, Winter holidays      National       FullDay       TRUE
+#> 45                EN, Christmas      Regional       FullDay      FALSE
+#> 46       EN, Christmas holidays      National       FullDay       TRUE
+#> 47          EN, Winter holidays      National       FullDay       TRUE
+#>                                                                                                                                                                                                  subdivisions
+#> 1                                                                                                                                                                                                   FR-YT, YT
+#> 2                                                                                                                                                                                                        NULL
+#> 3                                                                                                                                                                                                   FR-RU, RU
+#> 4                                                                                                                                                                                                   DE-SH, SH
+#> 5                                                                                                                                                                                                   ES-AR, AR
+#> 6                                                                                                                                                                                                   CH-TI, TI
+#> 7                                                                                                                                                                                                   CH-UR, UR
+#> 8                                                                                                                                                                                                        NULL
+#> 9                                                                                                                                                                                                   ES-CT, CT
+#> 10                                                                                                                                                                                                  ES-IB, IB
+#> 11                                                                                                                                                                                                  ES-CL, CL
+#> 12                                                                                                                                                                                                       NULL
+#> 13                                                                                                                                                                                                  ES-MD, MD
+#> 14                                                                                                                                                                                            ES-AN-SE, AN-SE
+#> 15                                                                                                                                                                                                  ES-VC, VC
+#> 16                                                                                                                                                                                                  DE-RP, RP
+#> 17                                                                                                                                                                                                  ES-ML, ML
+#> 18                                                                                                                                                                                                  DE-NW, NW
+#> 19                                                                                                                                                                                                  ES-AS, AS
+#> 20                                                                                                                                                                                                       NULL
+#> 21                                                                                                                                                                                                  ES-CN, CN
+#> 22                                                                                                                                                                                                  ES-CM, CM
+#> 23                                                                                                                                                                                                  ES-RI, RI
+#> 24 IT-LA, IT-MA, IT-CM, IT-SA, IT-UM, IT-VA, IT-BA, IT-FV, IT-CL, IT-PU, IT-TR-TN, IT-VE, IT-SI, IT-MO, IT-LO, IT-LI, IT-PI, IT-AB, LA, MA, CM, SA, UM, VA, BA, FV, CL, PU, TR-TN, VE, SI, MO, LO, LI, PI, AB
+#> 25                                                                                                                                                                                                  DE-MV, MV
+#> 26                                                                                                                                                                                            ES-AN-CA, AN-CA
+#> 27                                                                                                                                                                                                  ES-CB, CB
+#> 28                                                                                                                                                                                                       NULL
+#> 29                                                                                                                                                                                            ES-AN-CO, AN-CO
+#> 30                                                                                                                                                                                                  ES-CE, CE
+#> 31                                                                                                                                                                                            ES-AN-JA, AN-JA
+#> 32                                                                                                                                                                                                  DE-HE, HE
+#> 33                                                                                                                                                                                            ES-AN-HL, AN-HL
+#> 34                                                                                                                     SK-PV, SK-KI, SK-TA, SK-NI, SK-BC, SK-ZI, SK-TC, SK-BL, PV, KI, TA, NI, BC, ZI, TC, BL
+#> 35                                                                                                                                                                                                  ES-GA, GA
+#> 36                                                                                                                                                                                                  ES-EX, EX
+#> 37                                                                                                                                                                                                       NULL
+#> 38                                                                                                                                                                                                  ES-PV, PV
+#> 39                                                                                                                                                                                            ES-AN-AL, AN-AL
+#> 40                                                                                                                                                                                            ES-AN-GR, AN-GR
+#> 41                                                                                                                                                                      IT-TO, IT-TR-BZ, IT-ER, TO, TR-BZ, ER
+#> 42                                                                                                                                                                                                       NULL
+#> 43                                                                                                                                                                                                  ES-MC, MC
+#> 44                                                                                                                                                                                                       NULL
+#> 45                                                                                                                                                                                                  CH-SZ, SZ
+#> 46                                                                                                                                                                                                       NULL
+#> 47                                                                                                                                                                                                       NULL
+#>    tags            groups          comment
+#> 1     0              NULL             NULL
+#> 2     0              NULL             NULL
+#> 3     0              NULL             NULL
+#> 4     0              NULL             NULL
+#> 5     0              NULL             NULL
+#> 6     0              NULL             NULL
+#> 7     0              NULL             NULL
+#> 8     0              NULL             NULL
+#> 9     0              NULL             NULL
+#> 10    0              NULL             NULL
+#> 11    0              NULL             NULL
+#> 12    0              NULL             NULL
+#> 13    0              NULL             NULL
+#> 14    0              NULL             NULL
+#> 15    0              NULL             NULL
+#> 16    0              NULL             NULL
+#> 17    0              NULL             NULL
+#> 18    0              NULL             NULL
+#> 19    0              NULL             NULL
+#> 20    0              NULL             NULL
+#> 21    0              NULL             NULL
+#> 22    0              NULL             NULL
+#> 23    0              NULL             NULL
+#> 24    0              NULL             NULL
+#> 25    0 DE-MV-ABS, MV-ABS             NULL
+#> 26    0              NULL             NULL
+#> 27    0              NULL             NULL
+#> 28    0              NULL             NULL
+#> 29    0              NULL             NULL
+#> 30    0              NULL             NULL
+#> 31    0              NULL             NULL
+#> 32    0              NULL             NULL
+#> 33    0              NULL             NULL
+#> 34    0              NULL             NULL
+#> 35    0              NULL             NULL
+#> 36    0              NULL             NULL
+#> 37    0              NULL             NULL
+#> 38    0              NULL             NULL
+#> 39    0              NULL             NULL
+#> 40    0              NULL             NULL
+#> 41    0              NULL             NULL
+#> 42    0              NULL             NULL
+#> 43    0              NULL             NULL
+#> 44    0              NULL             NULL
+#> 45    0              NULL DE, Volksschulen
+#> 46    0              NULL             NULL
+#> 47    0              NULL             NULL
 ```

@@ -83,10 +83,74 @@ specific subdivision such as state/province).</p></dd>
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span>  <span class="fu">oh_school_holidays</span><span class="op">(</span><span class="st">"DE"</span>, <span class="st">"2025-01-01"</span>, <span class="st">"2025-12-31"</span><span class="op">)</span></span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in oh_school_holidays("DE", "2025-01-01", "2025-12-31"):</span> argument "end_date" is missing, with no default</span>
-<span class="r-in"><span>  <span class="fu">oh_school_holidays</span><span class="op">(</span><span class="st">"DE"</span>, <span class="st">"2025-01-01"</span>, <span class="st">"2025-12-31"</span>, subdivision <span class="op">=</span> <span class="st">"DE-BY"</span><span class="op">)</span></span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in oh_school_holidays("DE", "2025-01-01", "2025-12-31", subdivision = "DE-BY"):</span> argument "end_date" is missing, with no default</span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">oh_school_holidays</span><span class="op">(</span>country <span class="op">=</span> <span class="st">"DE"</span>,</span></span>
+<span class="r-in"><span>                   start_date <span class="op">=</span> <span class="st">"2025-01-01"</span>,</span></span>
+<span class="r-in"><span>                   end_date <span class="op">=</span> <span class="st">"2025-01-31"</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                                      id  startDate    endDate   type</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1  ade0ef11-b174-4694-81a7-f4070e5c0803 2024-12-19 2025-01-07 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2  c7ac38c5-318e-4eda-b793-86c77f4e4150 2024-12-20 2025-01-03 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3  04102750-f2a2-4115-a514-05cd87f9d449 2024-12-23 2025-01-03 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4  191f84ee-99ba-4311-be98-494334469d1e 2024-12-23 2025-01-08 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5  29bd10aa-e6b8-4760-a44e-6a88ab783f03 2024-12-23 2025-01-06 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6  3fa153b7-696a-479d-a2d7-ce582733b5b5 2024-12-23 2025-01-04 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 7  738023d8-9af3-445a-853f-94fa279b128d 2024-12-23 2025-01-06 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 8  890f7f2b-484b-476e-ba23-95465ea9aed8 2024-12-23 2025-01-03 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 9  979bb3ff-6c1a-4393-8e9b-7448332374f6 2024-12-23 2025-01-04 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 10 a3e4c4aa-82f5-4ad5-9b5a-9751ba361583 2024-12-23 2025-01-03 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 11 bd24179b-9f65-43dc-9904-b6159c7c62c4 2024-12-23 2025-01-10 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 12 bda62161-7ff6-4c23-b763-4a2b759bdef6 2024-12-23 2025-01-04 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 13 e6b339dc-3757-43f0-882f-be7de435a835 2024-12-23 2025-01-04 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 14 ee0ec0ad-882b-47a5-83a7-f9286504eea8 2024-12-23 2025-01-04 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 15 f3b90493-d141-4aab-ac30-37084db988c3 2024-12-23 2025-01-03 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 16 075d5aed-4503-4443-b299-dc3b63a0d95f 2025-01-27 2025-01-31 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 17 adde677a-fd87-4595-b2b9-c4ea84976adf 2025-01-31 2025-01-31 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                      name regionalScope temporalScope nationwide subdivisions</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1  EN, Christmas Holidays      Regional       FullDay      FALSE    DE-SH, SH</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2  EN, Christmas Holidays      Regional       FullDay      FALSE    DE-HH, HH</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3  EN, Christmas Holidays      Regional       FullDay      FALSE    DE-SL, SL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4  EN, Christmas Holidays      Regional       FullDay      FALSE    DE-RP, RP</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5  EN, Christmas Holidays      Regional       FullDay      FALSE    DE-NW, NW</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6  EN, Christmas Holidays      Regional       FullDay      FALSE    DE-MV, MV</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 7  EN, Christmas Holidays      Regional       FullDay      FALSE    DE-MV, MV</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 8  EN, Christmas Holidays      Regional       FullDay      FALSE    DE-TH, TH</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 9  EN, Christmas Holidays      Regional       FullDay      FALSE    DE-HB, HB</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 10 EN, Christmas Holidays      Regional       FullDay      FALSE    DE-SN, SN</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 11 EN, Christmas Holidays      Regional       FullDay      FALSE    DE-HE, HE</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 12 EN, Christmas Holidays      Regional       FullDay      FALSE    DE-NI, NI</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 13 EN, Christmas Holidays      Regional       FullDay      FALSE    DE-BW, BW</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 14 EN, Christmas Holidays      Regional       FullDay      FALSE    DE-ST, ST</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 15 EN, Christmas Holidays      Regional       FullDay      FALSE    DE-BY, BY</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 16    EN, Winter Holidays      Regional       FullDay      FALSE    DE-ST, ST</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 17     EN, Mid-Year Break      Regional       FullDay      FALSE    DE-HH, HH</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    tags            groups</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1     0              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2     0              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3     0              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4     0              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5     0              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6     0 DE-MV-BBS, MV-BBS</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 7     0 DE-MV-ABS, MV-ABS</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 8     0              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 9     0              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 10    0              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 11    0              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 12    0              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 13    0              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 14    0              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 15    0              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 16    0              NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 17    0              NULL</span>
+<span class="r-in"><span></span></span>
+<span class="r-in"><span><span class="fu">oh_school_holidays</span><span class="op">(</span>country <span class="op">=</span> <span class="st">"DE"</span>,</span></span>
+<span class="r-in"><span>                  start_date <span class="op">=</span> <span class="st">"2025-01-01"</span>,</span></span>
+<span class="r-in"><span>                  end_date <span class="op">=</span> <span class="st">"2025-01-31"</span>,</span></span>
+<span class="r-in"><span>                  subdivision <span class="op">=</span> <span class="st">"DE-BY"</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                                     id  startDate    endDate   type</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1 f3b90493-d141-4aab-ac30-37084db988c3 2024-12-23 2025-01-03 School</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                     name regionalScope temporalScope nationwide subdivisions</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1 EN, Christmas Holidays      Regional       FullDay      FALSE    DE-BY, BY</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   tags</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1    0</span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
