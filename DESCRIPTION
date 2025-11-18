@@ -1,5 +1,5 @@
 Package: openholidaysR
-Title: Provides Access to the OpenHolidays API
+Title: Provides Access to the 'OpenHolidays' API
 Version: 0.1.0
 Authors@R: 
     person("Johannes", "Feldhege", , "mail@johannesfeldhege.de", role = c("aut", "cre", "cph"),

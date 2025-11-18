@@ -21,7 +21,7 @@ knitr::opts_chunk$set(
 [![CRAN status](https://www.r-pkg.org/badges/version/openholidaysR)](https://CRAN.R-project.org/package=openholidaysR)
 <!-- badges: end -->
 
-The goal of openholidaysR is to provide dates for public and school holidays for a number of countries and their subdivisions through the OpenHolidays API at https://openholidaysapi.org/.
+The goal of openholidaysR is to provide dates for public and school holidays for a number of countries and their subdivisions through the 'OpenHolidays' API at [https://www.openholidaysapi.org/en/](https://www.openholidaysapi.org/en/).
 
 ## Installation
 
