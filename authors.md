@@ -10,12 +10,12 @@
 Source:
 [`DESCRIPTION`](https://github.com/jfeldhege/openholidaysR/blob/master/DESCRIPTION)
 
-Feldhege J (2025). *openholidaysR: Provides Access to the OpenHolidays
+Feldhege J (2025). *openholidaysR: Provides Access to the 'OpenHolidays'
 API*. R package version 0.1.0,
 <https://github.com/jfeldhege/openholidaysR>.
 
     @Manual{,
-      title = {openholidaysR: Provides Access to the OpenHolidays API},
+      title = {openholidaysR: Provides Access to the 'OpenHolidays' API},
       author = {Johannes Feldhege},
       year = {2025},
       note = {R package version 0.1.0},

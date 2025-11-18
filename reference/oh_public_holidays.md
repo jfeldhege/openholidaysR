@@ -85,8 +85,8 @@ oh_public_holidays(country = "DE",
 #> 21      EN, 2nd Day of Christmas      Regional       FullDay       TRUE       0
 #>                                                                                         subdivisions
 #> 1                                                                                               NULL
-#> 2                                                                    DE-BW, DE-ST, DE-BY, BW, ST, BY
-#> 3                                                                               DE-MV, DE-BE, MV, BE
+#> 2                                                                    DE-BW, DE-BY, DE-ST, BW, BY, ST
+#> 3                                                                               DE-BE, DE-MV, BE, MV
 #> 4                                                                                               NULL
 #> 5                                                                                          DE-BB, BB
 #> 6                                                                                               NULL
@@ -95,13 +95,13 @@ oh_public_holidays(country = "DE",
 #> 9                                                                                               NULL
 #> 10                                                                                         DE-BB, BB
 #> 11                                                                                              NULL
-#> 12                                  DE-SL, DE-HE, DE-BW, DE-NW, DE-BY, DE-RP, SL, HE, BW, NW, BY, RP
+#> 12                                  DE-HE, DE-SL, DE-BW, DE-BY, DE-NW, DE-RP, HE, SL, BW, BY, NW, RP
 #> 13                                                                                   DE-BY-AU, BY-AU
 #> 14                                                                              DE-SL, DE-BY, SL, BY
 #> 15                                                                                         DE-TH, TH
 #> 16                                                                                              NULL
-#> 17 DE-SN, DE-SH, DE-HB, DE-MV, DE-TH, DE-ST, DE-HH, DE-BB, DE-NI, SN, SH, HB, MV, TH, ST, HH, BB, NI
-#> 18                                             DE-SL, DE-BW, DE-NW, DE-BY, DE-RP, SL, BW, NW, BY, RP
+#> 17 DE-HH, DE-NI, DE-HB, DE-TH, DE-SN, DE-SH, DE-BB, DE-ST, DE-MV, HH, NI, HB, TH, SN, SH, BB, ST, MV
+#> 18                                             DE-SL, DE-BW, DE-BY, DE-NW, DE-RP, SL, BW, BY, NW, RP
 #> 19                                                                                         DE-SN, SN
 #> 20                                                                                              NULL
 #> 21                                                                                              NULL
