@@ -149,7 +149,7 @@ oh_school_holidays_by_date(date = "2025-01-06")
 #> 22                                                                                                                                                                                                  ES-CN, CN
 #> 23                                                                                                                                                                                                  ES-CM, CM
 #> 24                                                                                                                                                                                                  ES-RI, RI
-#> 25 IT-TR-TN, IT-PI, IT-FV, IT-MA, IT-CL, IT-VA, IT-LO, IT-BA, IT-LI, IT-LA, IT-VE, IT-SA, IT-CM, IT-SI, IT-AB, IT-UM, IT-MO, IT-PU, TR-TN, PI, FV, MA, CL, VA, LO, BA, LI, LA, VE, SA, CM, SI, AB, UM, MO, PU
+#> 25 IT-MA, IT-AB, IT-SA, IT-FV, IT-LA, IT-TR-TN, IT-SI, IT-UM, IT-VA, IT-LI, IT-CL, IT-MO, IT-BA, IT-LO, IT-PU, IT-CM, IT-PI, IT-VE, MA, AB, SA, FV, LA, TR-TN, SI, UM, VA, LI, CL, MO, BA, LO, PU, CM, PI, VE
 #> 26                                                                                                                                                                                                  DE-MV, MV
 #> 27                                                                                                                                                                                            ES-AN-CA, AN-CA
 #> 28                                                                                                                                                                                                  ES-CB, CB
@@ -159,14 +159,14 @@ oh_school_holidays_by_date(date = "2025-01-06")
 #> 32                                                                                                                                                                                            ES-AN-JA, AN-JA
 #> 33                                                                                                                                                                                                  DE-HE, HE
 #> 34                                                                                                                                                                                            ES-AN-HL, AN-HL
-#> 35                                                                                                                     SK-KI, SK-BC, SK-TC, SK-TA, SK-NI, SK-ZI, SK-PV, SK-BL, KI, BC, TC, TA, NI, ZI, PV, BL
+#> 35                                                                                                                     SK-TA, SK-TC, SK-PV, SK-KI, SK-NI, SK-ZI, SK-BC, SK-BL, TA, TC, PV, KI, NI, ZI, BC, BL
 #> 36                                                                                                                                                                                                  ES-GA, GA
 #> 37                                                                                                                                                                                                  ES-EX, EX
 #> 38                                                                                                                                                                                                       NULL
 #> 39                                                                                                                                                                                                  ES-PV, PV
 #> 40                                                                                                                                                                                            ES-AN-AL, AN-AL
 #> 41                                                                                                                                                                                            ES-AN-GR, AN-GR
-#> 42                                                                                                                                                                      IT-TR-BZ, IT-ER, IT-TO, TR-BZ, ER, TO
+#> 42                                                                                                                                                                      IT-TO, IT-ER, IT-TR-BZ, TO, ER, TR-BZ
 #> 43                                                                                                                                                                                                       NULL
 #> 44                                                                                                                                                                                                  ES-MC, MC
 #> 45                                                                                                                                                                                                       NULL

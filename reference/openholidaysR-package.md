@@ -1,4 +1,4 @@
-# openholidaysR: Provides Access to the OpenHolidays API
+# openholidaysR: Provides Access to the 'OpenHolidays' API
 
 Provides dates for public and school holidays for a number of countries
 and their subdivisions through the 'OpenHolidays' API at
