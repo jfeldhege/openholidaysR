@@ -18,7 +18,13 @@ holidays for a number of countries and their subdivisions through the
 
 ## Installation
 
-You can install the development version of openholidaysR from
+You can install the package with this command:
+
+``` r
+install.packages("openholidaysR")
+```
+
+The development version of openholidaysR can be installed from
 [GitHub](https://github.com/) with:
 
 ``` r
@@ -46,5 +52,5 @@ oh_public_holidays(country = "DE",
 #> 2 DE, Heilige Drei Könige      Regional       FullDay      FALSE    0
 #>                      subdivisions
 #> 1                            NULL
-#> 2 DE-BW, DE-BY, DE-ST, BW, BY, ST
+#> 2 DE-BW, DE-ST, DE-BY, BW, ST, BY
 ```
