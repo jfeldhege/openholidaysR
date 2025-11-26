@@ -69,7 +69,7 @@ oh_subdivisions(country = "DE")
 #> 5                                  NULL
 #> 6                                  NULL
 #> 7                                  NULL
-#> 8  DE-MV-BBS, DE-MV-ABS, MV-BBS, MV-ABS
+#> 8  DE-MV-ABS, DE-MV-BBS, MV-ABS, MV-BBS
 #> 9                                  NULL
 #> 10                                 NULL
 #> 11                                 NULL
