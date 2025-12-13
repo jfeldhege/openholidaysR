@@ -7,3 +7,5 @@ setup.R
 ^pkgdown$
 ^\.github$
 ^README\.Rmd$
+^cran-comments\.md$
+^CRAN-SUBMISSION$

@@ -8,3 +8,5 @@ setup.R
 docs
 *Rcheck
 *tar.gz
+cran-comments.md
+CRAN-SUBMISSION
