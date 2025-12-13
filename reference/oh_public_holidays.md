@@ -61,31 +61,31 @@ oh_public_holidays(country = "DE",
 #> 19 1d68ac36-9690-4b06-b62d-de890d5b50ef 2025-11-19 2025-11-19 Public
 #> 20 92b270e3-247f-4f82-b79d-b5ad77a67d95 2025-12-25 2025-12-25 Public
 #> 21 28bf580c-9787-4d67-ab3e-06a5e6597c1c 2025-12-26 2025-12-26 Public
-#>                             name regionalScope temporalScope nationwide    tags
-#> 1             EN, New Year's Day      Regional       FullDay       TRUE       0
-#> 2                   EN, Epiphany      Regional       FullDay      FALSE       0
-#> 3  EN, International Women's Day      Regional       FullDay      FALSE       0
-#> 4                EN, Good Friday      Regional       FullDay       TRUE       0
-#> 5              EN, Easter Sunday      Regional       FullDay      FALSE       0
-#> 6              EN, Easter Monday      Regional       FullDay       TRUE       0
-#> 7                 EN, Labour Day      Regional       FullDay       TRUE       0
-#> 8             EN, Liberation Day      Regional       FullDay      FALSE OneTime
-#> 9              EN, Ascension Day      Regional       FullDay       TRUE       0
-#> 10          EN, Pentecost Sunday      Regional       FullDay      FALSE       0
-#> 11          EN, Pentecost Monday      Regional       FullDay       TRUE       0
-#> 12            EN, Corpus Christi      Regional       FullDay      FALSE       0
-#> 13    EN, High Festival of Peace         Local       FullDay      FALSE       0
-#> 14            EN, Assumption Day      Regional       FullDay      FALSE       0
-#> 15      EN, World Children's Day      Regional       FullDay      FALSE       0
-#> 16       EN, Day of German Unity      National       FullDay       TRUE       0
-#> 17           EN, Reformation Day      Regional       FullDay      FALSE       0
-#> 18           EN, All Saints' Day      Regional       FullDay      FALSE       0
-#> 19            EN, Repentance Day      Regional       FullDay      FALSE       0
-#> 20             EN, Christmas Day      Regional       FullDay       TRUE       0
-#> 21      EN, 2nd Day of Christmas      Regional       FullDay       TRUE       0
+#>                             name regionalScope temporalScope nationwide
+#> 1             EN, New Year's Day      Regional       FullDay       TRUE
+#> 2                   EN, Epiphany      Regional       FullDay      FALSE
+#> 3  EN, International Women's Day      Regional       FullDay      FALSE
+#> 4                EN, Good Friday      Regional       FullDay       TRUE
+#> 5              EN, Easter Sunday      Regional       FullDay      FALSE
+#> 6              EN, Easter Monday      Regional       FullDay       TRUE
+#> 7                 EN, Labour Day      Regional       FullDay       TRUE
+#> 8             EN, Liberation Day      Regional       FullDay      FALSE
+#> 9              EN, Ascension Day      Regional       FullDay       TRUE
+#> 10          EN, Pentecost Sunday      Regional       FullDay      FALSE
+#> 11          EN, Pentecost Monday      Regional       FullDay       TRUE
+#> 12            EN, Corpus Christi      Regional       FullDay      FALSE
+#> 13    EN, High Festival of Peace         Local       FullDay      FALSE
+#> 14            EN, Assumption Day      Regional       FullDay      FALSE
+#> 15      EN, World Children's Day      Regional       FullDay      FALSE
+#> 16       EN, Day of German Unity      National       FullDay       TRUE
+#> 17           EN, Reformation Day      Regional       FullDay      FALSE
+#> 18           EN, All Saints' Day      Regional       FullDay      FALSE
+#> 19            EN, Repentance Day      Regional       FullDay      FALSE
+#> 20             EN, Christmas Day      Regional       FullDay       TRUE
+#> 21      EN, 2nd Day of Christmas      Regional       FullDay       TRUE
 #>                                                                                         subdivisions
 #> 1                                                                                               NULL
-#> 2                                                                    DE-BW, DE-ST, DE-BY, BW, ST, BY
+#> 2                                                                    DE-ST, DE-BY, DE-BW, ST, BY, BW
 #> 3                                                                               DE-MV, DE-BE, MV, BE
 #> 4                                                                                               NULL
 #> 5                                                                                          DE-BB, BB
@@ -95,14 +95,36 @@ oh_public_holidays(country = "DE",
 #> 9                                                                                               NULL
 #> 10                                                                                         DE-BB, BB
 #> 11                                                                                              NULL
-#> 12                                  DE-BW, DE-NW, DE-SL, DE-BY, DE-RP, DE-HE, BW, NW, SL, BY, RP, HE
+#> 12                                  DE-RP, DE-HE, DE-NW, DE-BY, DE-SL, DE-BW, RP, HE, NW, BY, SL, BW
 #> 13                                                                                   DE-BY-AU, BY-AU
-#> 14                                                                              DE-SL, DE-BY, SL, BY
+#> 14                                                                              DE-BY, DE-SL, BY, SL
 #> 15                                                                                         DE-TH, TH
 #> 16                                                                                              NULL
-#> 17 DE-BB, DE-SH, DE-NI, DE-TH, DE-SN, DE-HH, DE-ST, DE-MV, DE-HB, BB, SH, NI, TH, SN, HH, ST, MV, HB
-#> 18                                             DE-BW, DE-NW, DE-SL, DE-BY, DE-RP, BW, NW, SL, BY, RP
+#> 17 DE-ST, DE-NI, DE-HB, DE-BB, DE-SH, DE-SN, DE-MV, DE-TH, DE-HH, ST, NI, HB, BB, SH, SN, MV, TH, HH
+#> 18                                             DE-RP, DE-NW, DE-BY, DE-SL, DE-BW, RP, NW, BY, SL, BW
 #> 19                                                                                         DE-SN, SN
 #> 20                                                                                              NULL
 #> 21                                                                                              NULL
+#>       tags
+#> 1     NULL
+#> 2     NULL
+#> 3     NULL
+#> 4     NULL
+#> 5     NULL
+#> 6     NULL
+#> 7     NULL
+#> 8  OneTime
+#> 9     NULL
+#> 10    NULL
+#> 11    NULL
+#> 12    NULL
+#> 13    NULL
+#> 14    NULL
+#> 15    NULL
+#> 16    NULL
+#> 17    NULL
+#> 18    NULL
+#> 19    NULL
+#> 20    NULL
+#> 21    NULL
 ```

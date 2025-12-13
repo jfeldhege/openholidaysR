@@ -84,24 +84,24 @@ oh_school_holidays(country = "DE",
 #> 15 EN, Christmas Holidays      Regional       FullDay      FALSE    DE-BY, BY
 #> 16    EN, Winter Holidays      Regional       FullDay      FALSE    DE-ST, ST
 #> 17     EN, Mid-Year Break      Regional       FullDay      FALSE    DE-HH, HH
-#>    tags            groups
-#> 1     0              NULL
-#> 2     0              NULL
-#> 3     0              NULL
-#> 4     0              NULL
-#> 5     0              NULL
-#> 6     0 DE-MV-BBS, MV-BBS
-#> 7     0 DE-MV-ABS, MV-ABS
-#> 8     0              NULL
-#> 9     0              NULL
-#> 10    0              NULL
-#> 11    0              NULL
-#> 12    0              NULL
-#> 13    0              NULL
-#> 14    0              NULL
-#> 15    0              NULL
-#> 16    0              NULL
-#> 17    0              NULL
+#>               groups
+#> 1               NULL
+#> 2               NULL
+#> 3               NULL
+#> 4               NULL
+#> 5               NULL
+#> 6  DE-MV-BBS, MV-BBS
+#> 7  DE-MV-ABS, MV-ABS
+#> 8               NULL
+#> 9               NULL
+#> 10              NULL
+#> 11              NULL
+#> 12              NULL
+#> 13              NULL
+#> 14              NULL
+#> 15              NULL
+#> 16              NULL
+#> 17              NULL
 
 oh_school_holidays(country = "DE",
                   start_date = "2025-01-01",
@@ -111,6 +111,4 @@ oh_school_holidays(country = "DE",
 #> 1 f3b90493-d141-4aab-ac30-37084db988c3 2024-12-23 2025-01-03 School
 #>                     name regionalScope temporalScope nationwide subdivisions
 #> 1 EN, Christmas Holidays      Regional       FullDay      FALSE    DE-BY, BY
-#>   tags
-#> 1    0
 ```

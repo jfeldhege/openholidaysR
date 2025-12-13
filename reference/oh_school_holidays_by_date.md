@@ -152,7 +152,7 @@ oh_school_holidays_by_date(date = "2025-01-06")
 #> 23                                                                                                                                                                                                  ES-CN, CN
 #> 24                                                                                                                                                                                                  ES-CM, CM
 #> 25                                                                                                                                                                                                  ES-RI, RI
-#> 26 IT-TR-TN, IT-SI, IT-VA, IT-MO, IT-BA, IT-CL, IT-VE, IT-UM, IT-PI, IT-LI, IT-LA, IT-MA, IT-LO, IT-CM, IT-AB, IT-SA, IT-FV, IT-PU, TR-TN, SI, VA, MO, BA, CL, VE, UM, PI, LI, LA, MA, LO, CM, AB, SA, FV, PU
+#> 26 IT-SA, IT-MO, IT-CM, IT-VE, IT-MA, IT-TR-TN, IT-PI, IT-SI, IT-AB, IT-FV, IT-LO, IT-LA, IT-VA, IT-CL, IT-UM, IT-LI, IT-BA, IT-PU, SA, MO, CM, VE, MA, TR-TN, PI, SI, AB, FV, LO, LA, VA, CL, UM, LI, BA, PU
 #> 27                                                                                                                                                                                                  DE-MV, MV
 #> 28                                                                                                                                                                                            ES-AN-CA, AN-CA
 #> 29                                                                                                                                                                                                  ES-CB, CB
@@ -162,68 +162,68 @@ oh_school_holidays_by_date(date = "2025-01-06")
 #> 33                                                                                                                                                                                            ES-AN-JA, AN-JA
 #> 34                                                                                                                                                                                                  DE-HE, HE
 #> 35                                                                                                                                                                                            ES-AN-HL, AN-HL
-#> 36                                                                                                                     SK-KI, SK-TC, SK-NI, SK-PV, SK-ZI, SK-BL, SK-TA, SK-BC, KI, TC, NI, PV, ZI, BL, TA, BC
+#> 36                                                                                                                     SK-KI, SK-TC, SK-TA, SK-PV, SK-BC, SK-BL, SK-NI, SK-ZI, KI, TC, TA, PV, BC, BL, NI, ZI
 #> 37                                                                                                                                                                                                  ES-GA, GA
 #> 38                                                                                                                                                                                                  ES-EX, EX
 #> 39                                                                                                                                                                                                       NULL
 #> 40                                                                                                                                                                                                  ES-PV, PV
 #> 41                                                                                                                                                                                            ES-AN-AL, AN-AL
 #> 42                                                                                                                                                                                            ES-AN-GR, AN-GR
-#> 43                                                                                                                                                                      IT-TR-BZ, IT-TO, IT-ER, TR-BZ, TO, ER
+#> 43                                                                                                                                                                      IT-TR-BZ, IT-ER, IT-TO, TR-BZ, ER, TO
 #> 44                                                                                                                                                                                                       NULL
 #> 45                                                                                                                                                                                                  ES-MC, MC
 #> 46                                                                                                                                                                                                       NULL
 #> 47                                                                                                                                                                                                  CH-SZ, SZ
 #> 48                                                                                                                                                                                                       NULL
 #> 49                                                                                                                                                                                                       NULL
-#>    tags            groups          comment
-#> 1     0              NULL             NULL
-#> 2     0              NULL             NULL
-#> 3     0              NULL             NULL
-#> 4     0              NULL             NULL
-#> 5     0              NULL             NULL
-#> 6     0              NULL             NULL
-#> 7     0              NULL             NULL
-#> 8     0   CH-GR-VS, GR-VS             NULL
-#> 9     0              NULL             NULL
-#> 10    0              NULL             NULL
-#> 11    0              NULL             NULL
-#> 12    0              NULL             NULL
-#> 13    0              NULL             NULL
-#> 14    0              NULL             NULL
-#> 15    0              NULL             NULL
-#> 16    0              NULL             NULL
-#> 17    0              NULL             NULL
-#> 18    0              NULL             NULL
-#> 19    0              NULL             NULL
-#> 20    0              NULL             NULL
-#> 21    0              NULL             NULL
-#> 22    0              NULL             NULL
-#> 23    0              NULL             NULL
-#> 24    0              NULL             NULL
-#> 25    0              NULL             NULL
-#> 26    0              NULL             NULL
-#> 27    0 DE-MV-ABS, MV-ABS             NULL
-#> 28    0              NULL             NULL
-#> 29    0              NULL             NULL
-#> 30    0              NULL             NULL
-#> 31    0              NULL             NULL
-#> 32    0              NULL             NULL
-#> 33    0              NULL             NULL
-#> 34    0              NULL             NULL
-#> 35    0              NULL             NULL
-#> 36    0              NULL             NULL
-#> 37    0              NULL             NULL
-#> 38    0              NULL             NULL
-#> 39    0              NULL             NULL
-#> 40    0              NULL             NULL
-#> 41    0              NULL             NULL
-#> 42    0              NULL             NULL
-#> 43    0              NULL             NULL
-#> 44    0              NULL             NULL
-#> 45    0              NULL             NULL
-#> 46    0              NULL             NULL
-#> 47    0              NULL DE, Volksschulen
-#> 48    0              NULL             NULL
-#> 49    0              NULL             NULL
+#>               groups          comment
+#> 1               NULL             NULL
+#> 2               NULL             NULL
+#> 3               NULL             NULL
+#> 4               NULL             NULL
+#> 5               NULL             NULL
+#> 6               NULL             NULL
+#> 7               NULL             NULL
+#> 8    CH-GR-VS, GR-VS             NULL
+#> 9               NULL             NULL
+#> 10              NULL             NULL
+#> 11              NULL             NULL
+#> 12              NULL             NULL
+#> 13              NULL             NULL
+#> 14              NULL             NULL
+#> 15              NULL             NULL
+#> 16              NULL             NULL
+#> 17              NULL             NULL
+#> 18              NULL             NULL
+#> 19              NULL             NULL
+#> 20              NULL             NULL
+#> 21              NULL             NULL
+#> 22              NULL             NULL
+#> 23              NULL             NULL
+#> 24              NULL             NULL
+#> 25              NULL             NULL
+#> 26              NULL             NULL
+#> 27 DE-MV-ABS, MV-ABS             NULL
+#> 28              NULL             NULL
+#> 29              NULL             NULL
+#> 30              NULL             NULL
+#> 31              NULL             NULL
+#> 32              NULL             NULL
+#> 33              NULL             NULL
+#> 34              NULL             NULL
+#> 35              NULL             NULL
+#> 36              NULL             NULL
+#> 37              NULL             NULL
+#> 38              NULL             NULL
+#> 39              NULL             NULL
+#> 40              NULL             NULL
+#> 41              NULL             NULL
+#> 42              NULL             NULL
+#> 43              NULL             NULL
+#> 44              NULL             NULL
+#> 45              NULL             NULL
+#> 46              NULL             NULL
+#> 47              NULL DE, Volksschulen
+#> 48              NULL             NULL
+#> 49              NULL             NULL
 ```

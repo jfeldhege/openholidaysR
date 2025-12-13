@@ -98,40 +98,40 @@ oh_public_holidays_by_date(date = "2025-12-25")
 #> 33                                    EN, Christmas Day      National
 #> 34                                    EN, Christmas Day      National
 #> 35                              EN, First Christmas Day      National
-#>    temporalScope nationwide tags
-#> 1        FullDay       TRUE    0
-#> 2        FullDay       TRUE    0
-#> 3        FullDay       TRUE    0
-#> 4        FullDay       TRUE    0
-#> 5        FullDay       TRUE    0
-#> 6        FullDay       TRUE    0
-#> 7        FullDay       TRUE    0
-#> 8        FullDay       TRUE    0
-#> 9        FullDay       TRUE    0
-#> 10       FullDay       TRUE    0
-#> 11       FullDay       TRUE    0
-#> 12       FullDay       TRUE    0
-#> 13       FullDay       TRUE    0
-#> 14       FullDay       TRUE    0
-#> 15       FullDay       TRUE    0
-#> 16       FullDay       TRUE    0
-#> 17       FullDay       TRUE    0
-#> 18       FullDay       TRUE    0
-#> 19       FullDay       TRUE    0
-#> 20       FullDay       TRUE    0
-#> 21       FullDay       TRUE    0
-#> 22       FullDay       TRUE    0
-#> 23       FullDay       TRUE    0
-#> 24       FullDay       TRUE    0
-#> 25       FullDay       TRUE    0
-#> 26       FullDay       TRUE    0
-#> 27       FullDay       TRUE    0
-#> 28       FullDay       TRUE    0
-#> 29       FullDay       TRUE    0
-#> 30       FullDay       TRUE    0
-#> 31       FullDay       TRUE    0
-#> 32       FullDay       TRUE    0
-#> 33       FullDay       TRUE    0
-#> 34       FullDay       TRUE    0
-#> 35       FullDay       TRUE    0
+#>    temporalScope nationwide
+#> 1        FullDay       TRUE
+#> 2        FullDay       TRUE
+#> 3        FullDay       TRUE
+#> 4        FullDay       TRUE
+#> 5        FullDay       TRUE
+#> 6        FullDay       TRUE
+#> 7        FullDay       TRUE
+#> 8        FullDay       TRUE
+#> 9        FullDay       TRUE
+#> 10       FullDay       TRUE
+#> 11       FullDay       TRUE
+#> 12       FullDay       TRUE
+#> 13       FullDay       TRUE
+#> 14       FullDay       TRUE
+#> 15       FullDay       TRUE
+#> 16       FullDay       TRUE
+#> 17       FullDay       TRUE
+#> 18       FullDay       TRUE
+#> 19       FullDay       TRUE
+#> 20       FullDay       TRUE
+#> 21       FullDay       TRUE
+#> 22       FullDay       TRUE
+#> 23       FullDay       TRUE
+#> 24       FullDay       TRUE
+#> 25       FullDay       TRUE
+#> 26       FullDay       TRUE
+#> 27       FullDay       TRUE
+#> 28       FullDay       TRUE
+#> 29       FullDay       TRUE
+#> 30       FullDay       TRUE
+#> 31       FullDay       TRUE
+#> 32       FullDay       TRUE
+#> 33       FullDay       TRUE
+#> 34       FullDay       TRUE
+#> 35       FullDay       TRUE
 ```
